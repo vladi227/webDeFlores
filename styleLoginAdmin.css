@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/fondo-userAdmin.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+body .titulo{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+
+form{
+    
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);    /* difuminacon de fondo */
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box-input input{
+    width: 90%;
+    height: 50px;
+    background: rgba(255, 255, 255, .8);
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.icon{
+    color: white;
+}
+
+.but-register{
+    padding: 10px;
+    background: #087ad1;
+    border: solid #087ad1;
+    border-radius: 10px;
+    color: white;
+}
+
+.text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
