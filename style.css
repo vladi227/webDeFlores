@@ -33,6 +33,26 @@ header nav a img{
     width: 100%;
 }
 
+header nav div #categoria-btn{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #7ecb29;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#categoria-lista{
+    display: none;
+}
+
+#categoria-btn:focus + #categoria-lista,
+#categoria-lista:focus {
+    display: block;
+  }
+
 header nav div .home{
     padding: 12px 16px;
     border: none;
@@ -149,7 +169,7 @@ main .box-articule .article{
 main .box-articule .article a{
     text-decoration: none;
     color: black;
-    background: black;
+    /* background: black; */
 }
 
 main .box-articule .article a img{
@@ -158,19 +178,36 @@ main .box-articule .article a img{
     border-radius: 10px 10px 0 0;
 }
 
-main .box-articule .article a .box-info-articule{
+main .box-articule .article .box-info-articule{
     border-radius: 0 0 12px 12px;
     padding: 2%;
-    background: #fefefe;
+    background: #ecffd7;
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+main .box-articule .article .box-info-articule .title-articule{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
 }
 
 main .box-articule .article .box-info-articule .title-articule h3{
     font-size: 25px;
     margin: 0 0 0 10px;
     font-weight: 800;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap
+    
+}
+
+main .box-articule .article .box-info-articule .price-button-articule .info{
+    text-decoration: none;
+    color: #7ecb29;
 }
 
 main .box-articule .article .box-info-articule .price-button-articule{
@@ -181,8 +218,9 @@ main .box-articule .article .box-info-articule .price-button-articule{
 
 main .box-articule .article .box-info-articule .price-button-articule{
     display: flex;
-    gap: 55%;
+    gap: 13%;
     align-items: center;
+    margin-bottom: 3%;
 }
 
 main .box-articule .article .box-info-articule .price-button-articule p{

@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Gin Mar del Plata</title>
+    <title> DAMU </title>
 </head>
 <body>
 
     <header>
         <nav>
             <a href="">
-                <img src="img/LOGO (2).png" alt="logo de la pagina web">
+                <img src="img/logo (2).png" alt="logo de la pagina web">
             </a>
             <div>
-                <button class="home"><a href="">Categorías</a></button>
+                <button id="categoria-btn">Categorías</button>
+                <ul id="categoria-lista">
+                    <li>Enfermedades</li>
+                    <li>Cuidados</li>
+                    <li>Bioinsumos</li>
+                    <li>Agroecologia</li>
+                    <li>Temporada de plantación</li>
+                  </ul>
                 <button class="home"><a href="">¿Quienes Somos?</a></button>
                 <button class="home"><a href="">Eventos</a></button>
             </div>
@@ -25,8 +32,8 @@
     <main>
         <section class="box-text-img">
             <div class="box-text">
-                <h1>PlantCare:Tu guía completa para el cuidado y salud de tus plantas</h1>
-                <p>Bienvenido a PlantCare, tu guía confiable para el cuidado y detección de enfermedades de plantas y suculentas. Descubre cómo mantener tus plantas saludables y radiantes con nuestras prácticas recomendaciones y soluciones efectivas. Nuestro objetivo es ser tu aliado en el cuidado de tus plantas, proporcionándote información valiosa y consejos expertos para prevenir y tratar enfermedades.Estamos aquí para ayudarte a mantener tus plantas en su mejor estado.¡Descubre cómo mantener tu jardín o colección de suculentas floreciendo con vitalidad y belleza en PlantCare!</p>
+                <h1>Damu:Tu guía completa para el cuidado y salud de tus plantas</h1>
+                <p>Bienvenido a Damu, tu guía confiable para el cuidado y detección de enfermedades de plantas y suculentas. Nuestro objetivo es ser tu aliado en el cuidado de tus plantas, proporcionándote información valiosa y consejos expertos para prevenir y tratar enfermedades.Estamos aquí para ayudarte a mantener tus plantas en su mejor estado.¡Descubre cómo mantener tu jardín o colección de suculentas floreciendo con vitalidad y belleza en Damu!</p>
             </div>
             <div class="box-img">
                 <img src="img/img_main.jpg" alt="imagen de presentacion de producto">
@@ -43,10 +50,10 @@
                     <img src="img/pla-img1.jpg" alt="">
                 <section class="box-info-articule">
                     <div class="title-articule">
-                        <h3>Belvedera</h3>
+                        <h3>Crassula ovata</h3>
                     </div>
                     <div class="price-button-articule">
-                        <p>$10.790</p>
+                        <a class="info" href=""><p>Mas información.</p></a>
                         <button class="button-articule">
                             <ion-icon name="heart"></ion-icon>
                         </button>
@@ -59,10 +66,10 @@
                     <img src="img/pla-img2.jpg" alt="">
                 <section class="box-info-articule">
                     <div class="title-articule">
-                        <h3>Aventureros</h3>
+                        <h3>Sansevieria</h3>
                     </div>
                     <div class="price-button-articule">
-                        <p>$4.100</p>
+                        <a class="info" href=""><p>Mas información.</p></a>
                         <button class="button-articule">
                             <ion-icon name="heart"></ion-icon>
                         </button>
@@ -75,10 +82,10 @@
                     <img src="img/pla-img3.jpg" alt="">
                 <section class="box-info-articule">
                     <div class="title-articule">
-                        <h3>Bombay Sapphire</h3>
+                        <h3>Aloe vera</h3>
                     </div>
                     <div class="price-button-articule">
-                        <p>$5.700</p>
+                        <a class="info" href=""><p>Mas información.</p></a>
                         <button class="button-articule">
                             <ion-icon name="heart"></ion-icon>
                         </button>
@@ -91,10 +98,10 @@
                     <img src="img/pla-img4.jpg" alt="">
                 <section class="box-info-articule">
                     <div class="title-articule">
-                        <h3>Capitan Gin</h3>
+                        <h3>Haworthia</h3>
                     </div>
                     <div class="price-button-articule">
-                        <p>$8.500</p>
+                        <a class="info" href=""><p>Mas información.</p></a>
                         <button class="button-articule">
                             <ion-icon name="heart"></ion-icon>
                         </button>
@@ -107,10 +114,10 @@
                     <img src="img/pla-img2.jpg" alt="">
                 <section class="box-info-articule">
                     <div class="title-articule">
-                        <h3>Gin Beefeater london</h3>
+                        <h3>Pothos</h3>
                     </div>
                     <div class="price-button-articule">
-                        <p>$12.390</p>
+                        <a class="info" href=""><p>Mas información.</p></a>
                         <button class="button-articule">
                             <ion-icon name="heart"></ion-icon>
                         </button>
@@ -123,10 +130,10 @@
                     <img src="img/pla-img4.jpg" alt="">
                 <section class="box-info-articule">
                     <div class="title-articule">
-                        <h3>Gin Trerrier Spicy</h3>
+                        <h3>Zamioculcas</h3>
                     </div>
                     <div class="price-button-articule">
-                        <p>$7.500</p>
+                        <a class="info" href=""><p>Mas información.</p></a>
                         <button class="button-articule">
                             <ion-icon name="heart"></ion-icon>
                         </button>
@@ -139,7 +146,7 @@
 
     <footer>
         <section class="logo-footer">
-            <img src="img/logo_foouter.png" alt="">
+            <img src="img/logo-pieDeWeb.png" alt="">
         </section>
         <section class="box-contactos">
             <h3>Contactos</h3>
